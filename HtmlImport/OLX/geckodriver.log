@@ -1,0 +1,416 @@
+1589024775715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofilecngq2K"
+*** You are running in headless mode.
+1589024776163	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589024776596	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589024776596	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589024776597	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589024776597	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589024778132	Marionette	INFO	Listening on port 57514
+1589024778349	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589024784118	Marionette	INFO	Stopped listening on port 57514
+1589026567819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofilel9M4e5"
+*** You are running in headless mode.
+1589026568269	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589026568642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589026568642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589026568642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589026568642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589026570451	Marionette	INFO	Listening on port 58444
+1589026570948	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589026740932	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileWw4XXf"
+*** You are running in headless mode.
+1589026741342	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589026741753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589026741753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589026741753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589026741753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589026743300	Marionette	INFO	Listening on port 58650
+1589026743562	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589027015860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofilezgJbbD"
+*** You are running in headless mode.
+1589027016270	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589027016693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589027016694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589027016694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589027016694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589027018389	Marionette	INFO	Listening on port 54341
+1589027018479	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589027018512	Marionette	INFO	Stopped listening on port 54341
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+1589027031440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofilespo54T"
+*** You are running in headless mode.
+1589027031921	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589027032388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589027032388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589027032388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589027032388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589027034455	Marionette	INFO	Listening on port 54393
+1589027034568	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589027034598	Marionette	INFO	Stopped listening on port 54393
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1589027042305	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofile1eVsfw"
+*** You are running in headless mode.
+1589027042704	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589027043105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589027043105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589027043105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589027043105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589027044734	Marionette	INFO	Listening on port 54437
+1589027044925	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589027156208	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileAbBk08"
+*** You are running in headless mode.
+1589027156630	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589027157033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589027157033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589027157033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589027157033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589027158780	Marionette	INFO	Listening on port 50857
+1589027158834	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589027269381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileEEIqm8"
+*** You are running in headless mode.
+1589027269794	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589027270206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589027270206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589027270206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589027270206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589027272939	Marionette	INFO	Listening on port 51105
+1589027273016	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.ampproject.org/rtv/012005012256000/amp4ads-v0.js, line 29: Error: Failed to load: https://lh5.googleusercontent.com/proxy/jEu7gesJE71CIACyGKhT8SUhbqJl_wLAEjfiBLlkKKlbBArG5uoOjqpj-AsvbGO78bASH6NpsuX_e498-37H_XrhQw5abBaBI421JFdCZC8I7PUWJfBU1Osotz3sXefts8cl4bWEyph8yRJeVORYqJeOpCacDX7oMK3SBeN_WSEokJUI=w1200-h1200-rp-pd​​​
+1589027328943	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofiley2d67d"
+*** You are running in headless mode.
+1589027329344	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589027329759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589027329759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589027329759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589027329759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589027331307	Marionette	INFO	Listening on port 51293
+1589027331574	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.ampproject.org/rtv/012005012256000/amp4ads-v0.js, line 29: Error: Failed to load: https://lh5.googleusercontent.com/proxy/jEu7gesJE71CIACyGKhT8SUhbqJl_wLAEjfiBLlkKKlbBArG5uoOjqpj-AsvbGO78bASH6NpsuX_e498-37H_XrhQw5abBaBI421JFdCZC8I7PUWJfBU1Osotz3sXefts8cl4bWEyph8yRJeVORYqJeOpCacDX7oMK3SBeN_WSEokJUI=w1200-h1200-rp-pd​​​
+1589027747341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofilel98Qfe"
+*** You are running in headless mode.
+1589027747741	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589027748152	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589027748152	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589027748152	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589027748152	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589027749718	Marionette	INFO	Listening on port 51840
+1589027749965	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589027937788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofile7nNeD9"
+*** You are running in headless mode.
+1589027938246	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589027938747	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589027938748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589027938748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589027938748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589027941206	Marionette	INFO	Listening on port 63265
+1589027941406	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.ampproject.org/rtv/012005012256000/amp4ads-v0.js, line 29: Error: Failed to load: https://lh5.googleusercontent.com/proxy/jEu7gesJE71CIACyGKhT8SUhbqJl_wLAEjfiBLlkKKlbBArG5uoOjqpj-AsvbGO78bASH6NpsuX_e498-37H_XrhQw5abBaBI421JFdCZC8I7PUWJfBU1Osotz3sXefts8cl4bWEyph8yRJeVORYqJeOpCacDX7oMK3SBeN_WSEokJUI=w1200-h1200-rp-pd​​​
+1589028067627	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofilehvtoGU"
+1589028068066	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589028068474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589028068475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589028068475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589028068475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589028070322	Marionette	INFO	Listening on port 61458
+1589028070754	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL context was lost.
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589028530202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofilej3wzoc"
+1589028530636	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589028531049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589028531049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589028531049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589028531049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589028532851	Marionette	INFO	Listening on port 62032
+1589028533327	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL context was lost.
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589028730308	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofilejvWnCK"
+1589028730754	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589028731158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589028731158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589028731158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589028731158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589028733782	Marionette	INFO	Listening on port 51302
+1589028733958	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL context was lost.
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589028855243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileJg28HS"
+1589028855664	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589028856082	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589028856082	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589028856083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589028856083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589028857877	Marionette	INFO	Listening on port 51562
+1589028858373	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL context was lost.
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589028930218	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileI3JMQ6"
+1589028930640	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589028931158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589028931158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589028931158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589028931159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589028933124	Marionette	INFO	Listening on port 51790
+1589028933342	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL context was lost.
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/sw0bec5d4f65b5b3a44f2a85e903e0f973.js, line 853: unreachable code after return statement
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589028944297	Marionette	INFO	Stopped listening on port 51790
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589028976309	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofile4QBSCf"
+1589028976730	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589028977134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589028977134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589028977135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589028977135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589028978962	Marionette	INFO	Listening on port 51980
+1589028979444	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL context was lost.
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/sw0bec5d4f65b5b3a44f2a85e903e0f973.js, line 853: unreachable code after return statement
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589029003264	Marionette	INFO	Stopped listening on port 51980
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589029255822	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileYPPua5"
+*** You are running in headless mode.
+1589029256231	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589029256642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589029256642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589029256642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589029256642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589029258167	Marionette	INFO	Listening on port 52404
+1589029258456	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589029302864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileubxIuB"
+*** You are running in headless mode.
+1589029303284	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589029303690	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589029303690	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589029303690	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589029303690	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589029305332	Marionette	INFO	Listening on port 52606
+1589029305497	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589029498157	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileCMf1bA"
+*** You are running in headless mode.
+1589029498564	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589029498956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589029498956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589029498957	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589029498957	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589029500584	Marionette	INFO	Listening on port 52953
+1589029500780	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589029609512	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofiletYAcie"
+*** You are running in headless mode.
+1589029609976	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589029610390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589029610390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589029610390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589029610390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589029612056	Marionette	INFO	Listening on port 53207
+1589029612154	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589029628222	Marionette	INFO	Stopped listening on port 53207
+1589029793923	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofilePbUvX9"
+*** You are running in headless mode.
+1589029794362	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589029794792	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589029794792	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589029794792	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589029794792	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589029796410	Marionette	INFO	Listening on port 53521
+1589029796587	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589029833090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileagNh2u"
+*** You are running in headless mode.
+1589029833506	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589029833897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589029833897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589029833898	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589029833898	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589029835464	Marionette	INFO	Listening on port 53698
+1589029835724	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589029864562	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileUHaFBB"
+*** You are running in headless mode.
+1589029864974	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589029865377	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589029865377	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589029865377	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589029865377	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589029866965	Marionette	INFO	Listening on port 53872
+1589029867206	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589029887062	Marionette	INFO	Stopped listening on port 53872
+1589030114632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileYGGv2N"
+*** You are running in headless mode.
+1589030115053	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589030115454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589030115454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589030115454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589030115454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589030117114	Marionette	INFO	Listening on port 54305
+1589030117257	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589030141466	Marionette	INFO	Stopped listening on port 54305
+1589030298591	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileOHQ6fN"
+*** You are running in headless mode.
+1589030299054	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589030299456	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589030299456	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589030299456	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589030299456	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589030301118	Marionette	INFO	Listening on port 51441
+1589030301216	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589030313623	Marionette	INFO	Stopped listening on port 51441
+1589030427084	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofilei2eNMy"
+*** You are running in headless mode.
+1589030427488	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589030427895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589030427895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589030427895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589030427895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589030429670	Marionette	INFO	Listening on port 51756
+1589030429713	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+1589030452569	Marionette	INFO	Stopped listening on port 51756
+1589031612050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Wiktor\\AppData\\Local\\Temp\\rust_mozprofileZPKyPk"
+*** You are running in headless mode.
+1589031612495	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589031612906	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589031612906	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589031612906	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589031612906	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589031614657	Marionette	INFO	Listening on port 52592
+1589031614671	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swc823a855490e39aa5ec1b24e8f6e2179.js, line 122: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-olxeu.akamaized.net/static/olxpl/packed/swb44554ac25ff612f158e9ac315e3a97b.js, line 1: unreachable code after return statement
+JavaScript error: https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020050602.js, line 20: uncaught exception: undefined
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200506/r20110914/elements/html/paloma_fy2019.js, line 12: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://www.olx.pl/nieruchomosci/mieszkania/wynajem/?page=336, line 9: ReferenceError: osdlfm is not defined
+1589040295768	Marionette	INFO	Stopped listening on port 52592
