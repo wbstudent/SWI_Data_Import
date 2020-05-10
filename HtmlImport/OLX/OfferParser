@@ -1,0 +1,118 @@
+# Creates JSON file from offers links
+import uuid
+import json
+import random
+import RandomAdressGenerator as RAG
+import time
+
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+
+def getAreaOrRandom(detailsParams):
+    areaText = ''
+    if 'Powierzchnia' in detailsParams:
+        try:
+            areaText = int(detailsParams['Powierzchnia'].split(' ')[0])
+        except:
+            areaText = random.randint(10, 80)
+    else:
+        areaText = random.randint(10, 80)
+    return areaText
+
+def getDescriptionOrEmpty(driver):
+    try:
+        return driver.find_element_by_id("textContent").text
+    except:
+        return ''
+# Needs help, otherwise gets one photo
+def getImagesOrEmpty(driver):
+    images = []
+    try:
+        imageCounter = driver.find_element_by_class_name("descImageCounter")
+        imagesCount = imageCounter.get_attribute('data-to')
+        maxPhoto = int(imagesCount)
+        imageTee = driver.find_element_by_class_name("descgallery__image")
+        imageChild = imageTee.find_element_by_tag_name("img")
+        imageSrc = imageChild.get_attribute("src")
+        images.append(imageSrc)
+        for image in range(1, maxPhoto):
+            nextPhoto = driver.find_element_by_class_name("descImageNext")
+            # nextPhoto.click() - not working cookie bar overlays it
+            driver.execute_script("arguments[0].click();", nextPhoto)
+            imageTee = driver.find_element_by_class_name("descgallery__image")
+            imageChild = imageTee.find_element_by_tag_name("img")
+            imageSrc = imageChild.get_attribute("src")
+            images.append(imageSrc)
+    except Exception as e:
+        print(e)
+        return images
+    return images
+
+
+def getPriceOrRandom(offerDetailsParams):
+    try:
+        return int(driver.find_element_by_class_name("pricelabel__value").text.split(' ')[0])
+    except:
+        return random.randint(10, 15)
+
+def getTitleOrDummyValue(driver):
+    try:
+        return driver.find_element_by_class_name("offer-titlebox").find_element_by_tag_name('h1').text
+    except:
+        return "Super mieszkanko"
+
+def getLocationOrRandom():
+    try:
+        cityText = driver.find_element_by_class_name("offer-user__address").text
+        cityOnlyTry = cityText.split(',')[0]
+        return RAG.generateRandomAddress(cityOnlyTry)
+    except:
+        return RAG.generateRandomAddress('')
+# Miasto - województwo
+# Miasto - lista ulic
+
+
+
+link = 'https://www.olx.pl/oferta/kawalerka-do-wynajecia-w-centrum-poznania-CID3-IDEQinD.html#abb1bb44db'
+
+    # Parses search page of OLX and copy links to single offers to given file
+    # https://www.olx.pl/nieruchomosci/mieszkania/sprzedaz/?page=   https://www.olx.pl/nieruchomosci/mieszkania/wynajem/?page=
+flatsRentLinksFile = './Flats/Rent/Links.txt'
+flatRentSaleLinksFile = './Flats/Sale/Links.txt'
+
+options = Options()
+options.headless = True
+driver = webdriver.Firefox(options=options, executable_path=r'C:\Users\Wiktor\AppData\Local\Gecko\geckodriver.exe')
+# tu będzie jakiś for
+
+driver.get(link)
+# one object
+offerDetailsParams = driver.find_elements_by_class_name("offer-details__param")
+params = {}
+for param in offerDetailsParams:
+    splitted = param.text.split("\n")
+    paramName = ''
+    paramValue = ''
+    try:
+        paramName = splitted[0]
+        paramValue = splitted[1]
+    except:
+        continue
+    params[paramName] = paramValue
+
+data = {
+    'id': str(uuid.uuid4()),
+    'area': getAreaOrRandom(offerDetailsParams),
+    'description': getDescriptionOrEmpty(driver),
+    'images': getImagesOrEmpty(driver),
+    'price': getPriceOrRandom(offerDetailsParams),
+    'email': 'sebastian.bienert96@gmail.com',
+    'title': getTitleOrDummyValue(driver),
+    'location': getLocationOrRandom(),
+
+}
+driver.quit()
+with open("jsons.txt", "a+", encoding="utf-8") as jsonsFile:
+    json.dump(data, jsonsFile)
+    jsonsFile.write(',\n')
+

@@ -28,3 +28,4 @@ for pageNumber in range(2, 480):
         links.append(offer.get_attribute("href"))
     with open(flatRentSaleLinksFile, 'a+') as f:
         f.writelines(link + '\n' for link in links)
+driver.quit()
