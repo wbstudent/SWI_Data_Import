@@ -19,6 +19,17 @@ def getAreaOrRandom(detailsParams):
         areaText = random.randint(10, 80)
     return areaText
 
+def getRoomCountOrRandom(detailsParams):
+    roomCountText = ''
+    if 'Liczba pokoi' in detailsParams:
+        try:
+            roomCountText = detailsParams['Liczba pokoi']
+        except:
+            roomCountText = str(random.randint(2, 4)) + ' pokoje'
+    else:
+        roomCountText = str(random.randint(2, 4)) + ' pokoje'
+    return roomCountText
+
 def getDescriptionOrEmpty(driver):
     try:
         return driver.find_element_by_id("textContent").text
@@ -68,6 +79,21 @@ def getLocationOrRandom():
         return RAG.generateRandomAddress(cityOnlyTry)
     except:
         return RAG.generateRandomAddress('')
+
+def getReadableParams(driver):
+    offerDetailsParams = driver.find_elements_by_class_name("offer-details__param")
+    params = {}
+    for param in offerDetailsParams:
+        splitted = param.text.split("\n")
+        paramName = ''
+        paramValue = ''
+        try:
+            paramName = splitted[0]
+            paramValue = splitted[1]
+        except:
+            continue
+        params[paramName] = paramValue
+    return params
 # Miasto - województwo
 # Miasto - lista ulic
 
@@ -77,42 +103,40 @@ link = 'https://www.olx.pl/oferta/kawalerka-do-wynajecia-w-centrum-poznania-CID3
 
     # Parses search page of OLX and copy links to single offers to given file
     # https://www.olx.pl/nieruchomosci/mieszkania/sprzedaz/?page=   https://www.olx.pl/nieruchomosci/mieszkania/wynajem/?page=
-flatsRentLinksFile = './Flats/Rent/Links.txt'
-flatRentSaleLinksFile = './Flats/Sale/Links.txt'
+flatsRentLinksFile = './Flats/Rent/LinksWithoutOtodom.txt'
+flatRentSaleLinksFile = './Flats/Sale/LinksWithoutOtodom.txt'
 
 options = Options()
 options.headless = True
-driver = webdriver.Firefox(options=options, executable_path=r'C:\Users\Wiktor\AppData\Local\Gecko\geckodriver.exe')
 # tu będzie jakiś for
-
-driver.get(link)
-# one object
-offerDetailsParams = driver.find_elements_by_class_name("offer-details__param")
-params = {}
-for param in offerDetailsParams:
-    splitted = param.text.split("\n")
-    paramName = ''
-    paramValue = ''
-    try:
-        paramName = splitted[0]
-        paramValue = splitted[1]
-    except:
-        continue
-    params[paramName] = paramValue
-
-data = {
-    'id': str(uuid.uuid4()),
-    'area': getAreaOrRandom(offerDetailsParams),
-    'description': getDescriptionOrEmpty(driver),
-    'images': getImagesOrEmpty(driver),
-    'price': getPriceOrRandom(offerDetailsParams),
-    'email': 'sebastian.bienert96@gmail.com',
-    'title': getTitleOrDummyValue(driver),
-    'location': getLocationOrRandom(),
-
-}
-driver.quit()
-with open("jsons.txt", "a+", encoding="utf-8") as jsonsFile:
-    json.dump(data, jsonsFile)
-    jsonsFile.write(',\n')
-
+MOJ_SUPER_LICZNIK = 0
+MOJ_SUPER_OGRANICZNIK = 5000
+with open(flatsRentLinksFile, 'r') as fp:
+    links = fp.readlines()
+import time
+start = time.time()
+for link in links:
+    if MOJ_SUPER_LICZNIK == MOJ_SUPER_OGRANICZNIK:
+        break
+    driver = webdriver.Firefox(options=options, executable_path=r'C:\Users\Wiktor\AppData\Local\Gecko\geckodriver.exe')
+    driver.get(link.strip())  # strip cause readLines is not so smart
+    # one object
+    params = getReadableParams(driver)
+    data = {
+        'id': str(uuid.uuid4()),
+        'area': getAreaOrRandom(params),
+        'description': getDescriptionOrEmpty(driver),
+        'images': getImagesOrEmpty(driver),
+        'price': getPriceOrRandom(params),
+        'email': 'sebastian.bienert96@gmail.com',
+        'title': getTitleOrDummyValue(driver),
+        'location': getLocationOrRandom(),
+        'roomCount': getRoomCountOrRandom(params),
+        'offerType': 'rent'
+    }
+    with open("jsons.txt", "a+", encoding="UTF-8") as jsonsFile:
+        json.dump(data, jsonsFile, ensure_ascii=False)
+        jsonsFile.write(',\n')
+    MOJ_SUPER_LICZNIK = MOJ_SUPER_LICZNIK + 1
+    driver.quit()
+print(time.time() - start)
